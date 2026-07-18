@@ -75,7 +75,7 @@ fun SettingsScreen(
                 )
             }
 
-            HorizontalDivider()
+            Divider()
 
             Text("Defaults", style = MaterialTheme.typography.titleMedium)
 
@@ -125,7 +125,7 @@ fun SettingsScreen(
                 modifier = Modifier.fillMaxWidth()
             )
 
-            HorizontalDivider()
+            Divider()
 
             Text("Data Management", style = MaterialTheme.typography.titleMedium)
             OutlinedButton(

@@ -81,7 +81,7 @@ fun ModelManagerScreen(
             if (isPulling) {
                 Spacer(modifier = Modifier.height(8.dp))
                 LinearProgressIndicator(
-                    progress = { pullProgress },
+                    progress = pullProgress,
                     modifier = Modifier.fillMaxWidth()
                 )
                 Text(pullStatus, style = MaterialTheme.typography.bodySmall)
